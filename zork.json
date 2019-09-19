@@ -155,39 +155,39 @@
       {
         "v": "RETURN TO SPAWNING POINT",
         "map": "EXIT THE SHIP"
-      }
+      },
       {
         "v": "ENTER THE BASE",
         "map": "BASE"
-      }
+      },
       {
         "v": "ENTER THE BASE",
         "map": "BASE"
-      }
+      },
       {
         "v": "THERE ARE NO DOORS HERE",
         "map": "NO EXIT"
-      }
+      },
       {
         "v": "ENTER UNLOCKED DOOR",
         "map": "WEST MAIN"
-      }
+      },
       {
         "v": "ENTER UNLOCKED DOOR",
         "map": "NORTH RM1"
-      }
+      },
       {
         "v": "ENTER UNLOCKED DOOR",
         "map": "EAST RM2"
-      }
+      },
       {
         "v": "ENTER UNLOCKED DOOR",
         "map": "EAST RM3"
-      }
+      },
       {
         "v": "ENTER UNLOCKED DOOR",
         "map": "SOUTH RM4"
-      }
+      },
       {
         "v": "EXIT FROM BASE",
         "map": "SOUTH RM5"
@@ -379,7 +379,7 @@
                       "verb": "RETURN TO SHIP",
                       "target": "SHIP",
                       "condition": ""
-                    },
+                    }
                   ],
                   "SHIP": {
                     "name": "outside of the base on a meteor",
@@ -387,4 +387,4 @@
         "inventory": []
       }
     }
-  }
+   }    
