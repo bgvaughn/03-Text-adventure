@@ -153,15 +153,45 @@
         "map": "GO IN"
       },
       {
-        "v": "EXIT THE SHIP",
-        "map": "START"
+        "v": "RETURN TO SPAWNING POINT",
+        "map": "EXIT THE SHIP"
       }
       {
-        "v": "ENTER",
+        "v": "ENTER THE BASE",
         "map": "BASE"
       }
-      
-
+      {
+        "v": "ENTER THE BASE",
+        "map": "BASE"
+      }
+      {
+        "v": "THERE ARE NO DOORS HERE",
+        "map": "NO EXIT"
+      }
+      {
+        "v": "ENTER UNLOCKED DOOR",
+        "map": "WEST MAIN"
+      }
+      {
+        "v": "ENTER UNLOCKED DOOR",
+        "map": "NORTH RM1"
+      }
+      {
+        "v": "ENTER UNLOCKED DOOR",
+        "map": "EAST RM2"
+      }
+      {
+        "v": "ENTER UNLOCKED DOOR",
+        "map": "EAST RM3"
+      }
+      {
+        "v": "ENTER UNLOCKED DOOR",
+        "map": "SOUTH RM4"
+      }
+      {
+        "v": "EXIT FROM BASE",
+        "map": "SOUTH RM5"
+      }
     ],
     "rooms": {
       "START": {
@@ -183,34 +213,177 @@
       },
       "SHIP": {
         "name": "in your ship",
-        "desc": "This feels like home. It needs to be cleaned.",
+        "desc": "This fully functional vessel feels like home. It needs to be cleaned.",
         "exits": [
           {
             "verb": "EXIT THE SHIP",
             "target": "START",
             "condition": ""
-      },
+          }
+        ],
      "BASE": {
-        "name": "Inside of the base on a meteor",
-        "desc": "BEYOND the giant steel doors you continue to hurl through space.",
+        "name": "Inside of the base on a meteor on the main observation deck.",
+        "desc": "BEYOND the giant steel doors you enter the main deck of the base. You see three doors located to the East, West and the North.",
         "exits": [
            {
-          
-            "verb": "EAST",
-            "target": "EHOUS",
+            "verb": "NO EXIT",
+            "target": "EAST MAIN",
             "condition": ""
           },
           {
-            "verb": "NORTH",
-            "target": "FORE3",
+            "verb": "NO EXIT",
+            "target": "NORTH MAIN",
             "condition": ""
           },
           {
-            "verb": "SOUTH",
-            "target": "NoExit",
+            "verb": "NO EXIT",
+            "target": "SOUTH MAIN",
+            "condition": ""
+          },
+          {
+            "verb": "WEST MAIN",
+            "target": "ROOM #1",
             "condition": ""
           }
         ],
+     "ROOM #1": {
+        "name": "Inside first room of the base",
+        "desc": "you notice that it iis too quiet, and where the heck is everybody.",
+        "exits": [
+            {
+            "verb": "NO EXIT",
+              "target": "EAST RM1",
+              "condition": ""
+            },
+            {
+              "verb": "NORTH RM1",
+              "target": "ROOM #2",
+              "condition": ""
+            },
+            {
+              "verb": "NO EXIT",
+              "target": "SOUTH RM1",
+              "condition": ""
+            },
+            {
+            "verb": "NO EXIT",
+            "target": "WEST RM1",
+            "condition": ""
+            }
+        ],
+      "ROOM #2": {
+          "name": "Inside the second room of the base",
+          "desc": "you see blood stains on the walls and floors.",
+          "exits": [
+             {
+              "verb": "EAST RM2",
+              "target": "ROOM #3",
+              "condition": ""
+            },
+            {
+              "verb": "NO EXIT",
+              "target": "NORTH RM2",
+              "condition": ""
+            },
+            {
+              "verb": "NO EXIT",
+              "target": "SOUTH RM2",
+              "condition": ""
+            },
+            {
+              "verb": "NO EXIT",
+              "target": "WEST RM2",
+              "condition": ""
+            }
+          ],
+          "ROOM #3": {
+            "name": "Inside of the third room of the base",
+            "desc": "you see the things that nightmares are made oooof that want to rip you limb from limb. you dash past it, but barely.",
+            "exits": [
+               {
+                "verb": "EAST RM3",
+                "target": "ROOM #4",
+                "condition": ""
+              },
+              {
+                "verb": "NO EXIT",
+                "target": "NORTH RM3",
+                "condition": ""
+              },
+              {
+                "verb": "NO EXIT",
+                "target": "SOUTH RM3",
+                "condition": ""
+              },
+              {
+                "verb": "NO EXIT",
+                "target": "WEST RM3",
+                "condition": ""
+              }
+            ],
+            "ROOM #4": {
+              "name": "Inside of the fourth room of the base",
+              "desc": "you manage to hide from the flesh eating monster under some equipment.",
+              "exits": [
+                 {
+                  "verb": "NO EXIT",
+                  "target": "EAST RM4",
+                  "condition": ""
+                },
+                {
+                  "verb": "NO EXIT",
+                  "target": "NORTH RM4",
+                  "condition": ""
+                },
+                {
+                  "verb": "SOUTH RM4",
+                  "target": "ROOM #5",
+                  "condition": ""
+                },
+                {
+                  "verb": "NO EXIT",
+                  "target": "WEST RM4",
+                  "condition": ""
+                }
+              ],
+              "ROOM #5": {
+                "name": "Inside of the fifth room of the base",
+                "desc": "seeing the final door you sprint to the airlock.",
+                "exits": [
+                   {
+                    "verb": "NO EXIT",
+                    "target": "EAST RM5",
+                    "condition": ""
+                  },
+                  {
+                    "verb": "NO EXIT",
+                    "target": "NORTH RM5",
+                    "condition": ""
+                  },
+                  {
+                    "verb": "SOUTH RM5",
+                    "target": "START",
+                    "condition": ""
+                  },
+                  {
+                    "verb": "NO EXIT",
+                    "target": "WEST RM5 ",
+                    "condition": ""
+                  }
+                ],
+                "START": {
+                  "name": "once again outside of the base on a meteor",
+                  "desc": "you are running for dear life. not knowing if you are going to die at any second and hoping you do not trip on any of these craters.",
+                  "exits": [
+                     {
+                      "verb": "RETURN TO SHIP",
+                      "target": "SHIP",
+                      "condition": ""
+                    },
+                  ],
+                  "SHIP": {
+                    "name": "outside of the base on a meteor",
+                    "desc": "After escaping that near death experience you make sure to put that meteor, base, and those creatures as far behind you as you can. OR DO YOU......", 
         "inventory": []
       }
     }
