@@ -1,0 +1,56 @@
+Name: Shantanu Bhattacharya
+Date: 23/09/2019
+Project: 03-Text-adventure-1
+Peer's repository: https://github.com/bgvaughn/03-Text-adventure.git
+
+
+
+What is something you learned by reviewing your peer's project?
+-> The order of the json file was great, and it reflected some really hard work.
+   I also liked how my peer kept the story short instead of having large chunks at once like me.
+ 
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+-> I would love to keep the story short and terse as my peer did.
+   Havig large chunks all at once is something I want to avoid from now.
+ 
+
+What suggestions would you have for your peer to improve his/her code?
+-> When I ran the file "main.py" I was bombarded with errors and it was not a good time 
+   as even the readme file contained no explanation. 
+   I would suggest my peer to just follow the proffesors directions a little better.
+   My peer's hard work is clearly reflected in the json file, thus my peer is definetly a hard worker,
+   my peer just seems to have been confused with the game engine.
+   I would like to say that a working game engine was provided by the professor.
+   My peer worked hard but should have just asked for a little help with the engine a part.
+   The json file was really diffrent with uncommon verbs and very unclear directions.
+   I think they needed a little more help with the json file as well.
+
+
+What could have been clearer or better commented?
+-> I would have been great to have some kind of readme file to understand my peers problem.
+   It is always great to have the LICENSE but the readme file is just as important.
+ 
+
+Was there anything in the code that was confusing to you? If so, what?
+-> Just not having the working game engine even when it was provided on canvas, 
+   was a little confusing and having really uncommon verbs to interact with the game with no 
+   directions. My peer should have asked for a little help.
+   It was a good effort.
+ 
+
+Does the repository contain an appropriate LICENSE?
+-> Yes it does.
+ 
+
+What is something he/she could add to the README.md to make it more descriptive?
+-> Everything, like their respective problems with the assignments and all the other gerat 
+   things about these assignments.
+   Explainig the problems you are having or had can also teach other people reading the readme 
+   and help them understand your problems.
+ 
+
+Pay a compliment to your peer based on the quality of his/her code.
+-> My peer really worked real hard on this project and I realize that and respect that,
+   It was a great effort and the json file was well structured.
+
